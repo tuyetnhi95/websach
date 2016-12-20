@@ -1,8 +1,8 @@
-
+﻿
 
 <?php
 $sach = new sach();
-if(isset($_GET["search"]) && isset($_GET)){
+if(isset($_GET["search"]) && isset($_GET)){//da sua loi
 $mota=getIndex('mota');
 $row = $sach->timmota($mota);
 
