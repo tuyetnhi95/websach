@@ -1,5 +1,5 @@
-<?php
-
+﻿<?php
+//da sua
 if (!isset($_SESSION)) session_start();
 
 $u = isset($_POST["u"])?$_POST["u"]:"";
